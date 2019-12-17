@@ -2,15 +2,15 @@ import React, { Component } from 'react'
 import { StyleSheet, View, Text, } from 'react-native';
 
 
-export default class HomeScreen extends Component{
+export default class AnimScreen extends Component{
   static navigationOptions = {
-    drawerLabel: 'Info',
+    drawerLabel: 'Anim',
   };
 
   render(){
     return(
       <View style={styles.container}>
-        <Text style={styles.text}>Info Page</Text>
+        <Text style={styles.text}>Anim Page</Text>
         </View>
     );
   }
